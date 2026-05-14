@@ -1,49 +1,25 @@
-# Silas Oliveira Geospatial - Landing Page
+# SOGIS — Silas Oliveira Geospatial Consulting
 
-Welcome to the source code for the landing page of **Silas Oliveira Geospatial**. This site serves as a professional portfolio and service presentation for Silas Oliveira, an Open Source GIS Specialist.
+Este é o repositório oficial do meu site profissional e portfólio. A SOGIS é focada em transformar dados geoespaciais em soluções estratégicas utilizando tecnologias open source de ponta.
 
-## 🚀 Technologies Used
+## 🌐 O Site
+O site atua como meu cartão de visita digital, apresentando meus serviços, especialidades técnicas e produtos próprios, como a plataforma SOMAP.
 
-This project is built using modern web development tools:
-- **[Next.js](https://nextjs.org/)** (App Router, Static Export configured)
-- **[React](https://react.dev/)**
-- **[Tailwind CSS](https://tailwindcss.com/)**
-- **[TypeScript](https://www.typescriptlang.org/)**
-- **[Lucide React](https://lucide.dev/)** (Icons)
+### Diferenciais Técnicos:
+- **Internacionalização (i18n):** Suporte nativo para Português e Inglês.
+*   **Design Premium:** Interface moderna, responsiva e otimizada para a melhor experiência do usuário (UX).
+*   **Performance:** Desenvolvido com Next.js e otimizado para exportação estática (Static Export), garantindo carregamento instantâneo e SEO robusto.
 
-## 📦 Project Overview
+## 🛠 Tecnologias Utilizadas
+- **Framework:** Next.js 15+ (App Router)
+- **Estilização:** Tailwind CSS (v4)
+- **Localização:** next-intl
+- **Componentes:** Lucide React, Radix UI
+- **Deployment:** Exportação estática para hospedagem em qualquer servidor web.
 
-The landing page features several sections designed to highlight expertise in the GIS area:
-- **Hero Section:** Introduction and value proposition.
-- **Specialist in Open Source GIS:** Technologies supported (PostgreSQL/PostGIS, QGIS, GeoServer, Python/React).
-- **Services:** Offerings such as GIS Consulting, Software Development, Managed GeoServer, GeoMap platform, Hosting, and Training.
-- **Support:** Open Source GIS support packages.
-- **Contact:** Call to action for scheduling consultations.
+## 🚀 Sobre Mim
+Sou especialista em GIS Open Source, com foco em migrações de stack proprietária (ESRI/ArcGIS) para arquiteturas abertas (QGIS, PostGIS, GeoServer). Além da consultoria, desenvolvo soluções WebGIS sob medida e mantenho a plataforma SOMAP.
 
-## 🛠️ Getting Started
-
-First, install the dependencies:
-
-```bash
-npm install
-```
-
-Then, run the development server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
-
-## 🏗️ Build and Deploy
-
-This project is configured for static export (`output: "export"` in `next.config.ts`), making it easy to deploy on GitHub Pages, AWS S3, or any static hosting service.
-
-To build the static HTML files:
-
-```bash
-npm run build
-```
-
-The output will be generated in the `out/` directory.
+---
+**Contato:** soliveira796@gmail.com  
+**LinkedIn:** [linkedin.com/in/silas-oliveira](https://www.linkedin.com/in/silas-oliveira-41a633186/)

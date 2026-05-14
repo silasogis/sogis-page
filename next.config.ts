@@ -1,12 +1,16 @@
+import createNextIntlPlugin from 'next-intl/plugin';
 import type { NextConfig } from "next";
+
+const withNextIntl = createNextIntlPlugin(
+  './src/i18n/request.ts'
+);
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/sogis-page",
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
   images: {
     unoptimized: true,
   },
-  /* config options here */
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);

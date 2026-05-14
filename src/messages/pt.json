@@ -1,0 +1,194 @@
+{
+  "Common": {
+    "nav": {
+      "services": "Serviços",
+      "somap": "SOMAP",
+      "contact": "Contato",
+      "cta": "Fale Comigo"
+    },
+    "footer": {
+      "rights": "Todos os direitos reservados."
+    }
+  },
+  "Nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "somap": "SOMAP",
+    "about": "Sobre",
+    "contact": "Contato",
+    "cta": "Consultoria GIS"
+  },
+  "Social": {
+    "linkedin": "https://www.linkedin.com/in/silas-oliveira-41a633186/",
+    "instagram": "https://www.instagram.com/silasogis?igsh=MTV6dHJnZml3d3B4bg==",
+    "youtube": "https://www.youtube.com/@silasetgeo",
+    "button": "Agendar Teste Gratuito"
+  },
+  "Consulting": {
+    "hero": {
+      "title": "Consultoria",
+      "accent": "GIS",
+      "description": "Sou especialista em geoespacial com experiência prática em projetos de todos os portes. Estou pronto para encarar qualquer desafio geoespacial."
+    },
+    "migration": {
+      "title": "Migração para Open Source GIS",
+      "description": "Gerencio cada etapa da sua migração para open source GIS, do planejamento ao suporte contínuo. Meu processo inclui:",
+      "items": [
+        "Avaliação — Avaliação do seu sistema GIS atual e levantamento de necessidades reais de uso por parte da equipe e das partes interessadas.",
+        "Plano de Migração — Com base na avaliação, defino um plano que minimiza interrupções respeitando restrições de prazo e orçamento.",
+        "Implementação — Trabalho lado a lado com a sua equipe para executar o plano de migração.",
+        "Treinamento e Documentação — Capacito a equipe para usar o novo GIS open source e entrego documentação dos principais fluxos de trabalho.",
+        "Suporte Contínuo — Nenhuma migração termina no go-live. Ofereço suporte contínuo para garantir o sucesso a longo prazo."
+      ],
+      "cta": "Começar"
+    },
+    "database": {
+      "title": "Design de Banco de Dados Espacial",
+      "description": "Projetar, construir e gerenciar bancos de dados espaciais com PostgreSQL/PostGIS é uma das minhas principais especialidades. Construo bancos gerenciados, hospedados na nuvem, integrados ao QGIS para criar sistemas multiusuário robustos."
+    },
+    "qgis": {
+      "title": "Desenvolvimento QGIS",
+      "description": "Crio aplicações e plugins personalizados para QGIS que aceleram fluxos de trabalho e automatizam tarefas repetitivas. As soluções podem incluir formulários de entrada de dados customizados, integração profunda com bancos PostGIS, ações para abrir arquivos locais ou vinculados, e recursos enterprise como controle de acesso por papel, segurança em nível de linha e coluna, e regras de validação sob medida para a sua organização."
+    },
+    "products": {
+      "title": "Produtos de Dados Geoespaciais",
+      "description": "Ajudo clientes a usar análises geoespaciais para resolver problemas, aumentar produtividade e melhorar a consciência locacional. Exemplos de produtos:",
+      "items": [
+        "Monitoramento de conformidade de legislação municipal",
+        "Mapas de Ilha de Calor Urbana (UHI)",
+        "Análise de Cobertura Arbórea",
+        "Análise de Vegetação e Áreas Verdes",
+        "Perfis Demográficos",
+        "Análise de Caminhabilidade",
+        "Análise de Mudança de Uso e Cobertura do Solo",
+        "Análise de Detecção de Mudanças",
+        "Mapas de Potencial Solar"
+      ]
+    },
+    "contact_cta": {
+      "title": "Como posso te ajudar?",
+      "description": "Entre em contato hoje mesmo para agendar uma consulta gratuita.",
+      "button_main": "Agendar Consulta Gratuita",
+      "button_back": "Voltar ao Início"
+    }
+  },
+  "Hero": {
+    "badge": "Consultor GIS Open Source",
+    "title": "Transformo dados geoespaciais em soluções open source",
+    "description": "Consultoria GIS, desenvolvimento WebGIS e suporte técnico para projetos que precisam de precisão e confiabilidade.",
+    "cta_primary": "Ver Serviços"
+  },
+  "SomapGlimpse": {
+    "title": "Descubra SOMAP",
+    "description": "SOMAP é a sua plataforma preferida para gerenciar e visualizar seus dados geoespaciais. Com ferramentas poderosas e uma interface intuitiva, você pode agilizar seus fluxos de trabalho e tomar decisões informadas.",
+    "cta": "Saiba mais"
+  },
+  "ValueProp": {
+    "title": "Especialista em Open Source GIS",
+    "description": "Domínio técnico completo em tecnologias geoespaciais abertas, da infraestrutura de dados à interface do usuário.",
+    "learn_more": "Saiba mais sobre meus serviços",
+    "items": {
+      "databases": {
+        "title": "Bancos de Dados",
+        "list": ["PostgreSQL & PostGIS", "MySQL, SQLite", "GeoPackage"]
+      },
+      "desktop": {
+        "title": "Desktop & Servidores GIS",
+        "list": ["QGIS, GDAL, GRASS", "SAGA GIS", "GeoServer, MapServer"]
+      },
+      "dev": {
+        "title": "Desenvolvimento Web",
+        "list": ["Python (GeoDjango, FastAPI)", "React, Vue.js, Angular", "Leaflet, OpenLayers"]
+      }
+    }
+  },
+  "Services": {
+    "title": "O que eu ofereço",
+    "description": "Soluções sob medida para otimizar, construir e escalar sua infraestrutura geoespacial.",
+    "items": {
+      "consulting": {
+        "title": "Consultoria GIS",
+        "description": "Ajudo a implementar e otimizar fluxos open source com QGIS, PostGIS, GeoServer e mais. Migrações do ArcGIS/ESRI são minha especialidade.",
+        "link": "Saiba Mais"
+      },
+      "dev": {
+        "title": "Desenvolvimento WebGIS",
+        "description": "Crio aplicações webGIS customizadas e ferramentas data-driven sob medida para o seu negócio usando tecnologias web modernas.",
+        "link": "Saiba Mais"
+      },
+      "geoserver": {
+        "title": "GeoServer Gerenciado",
+        "description": "Servidor GIS como serviço — PostgreSQL + PostGIS + GeoServer rodando na nuvem, com manutenção completa por mim.",
+        "link": "Saiba Mais"
+      },
+      "geomap": {
+        "title": "GeoMap",
+        "description": "Plataforma webGIS enterprise para compartilhar e visualizar dados geoespaciais e mapas interativos de forma intuitiva.",
+        "link": "Saiba Mais"
+      },
+      "hosting": {
+        "title": "Hospedagem GeoServer / PostGIS",
+        "description": "Instâncias dedicadas e seguras de servidores GIS, configuradas meticulosamente e monitoradas ativamente por mim.",
+        "link": "Saiba Mais"
+      },
+      "training": {
+        "title": "Treinamento & Suporte",
+        "description": "Capacitação personalizada para sua equipe em QGIS, PostGIS e fluxos de trabalho GIS open source.",
+        "link": "Saiba mais"
+      },
+      "somap": {
+        "title": "Plataforma SOMAP",
+        "description": "Nossa plataforma WebGIS própria para visualização e análise de alta performance.",
+        "link": "Conhecer SOMAP"
+      }
+    }
+  },
+  "Support": {
+    "title": "Suporte Open Source GIS",
+    "description": "Ofereço pacotes de suporte pré-pago ou dedicado para PostgreSQL, PostGIS, GeoServer, QGIS, pgAdmin e outras ferramentas open source. Resolvo seus problemas técnicos rapidamente com garantia de qualidade.",
+    "cta": "Ver Pacotes de Suporte"
+  },
+  "somap": {
+    "hero": {
+      "badge": "Plataforma WebGIS",
+      "title": "Observação Espacial e Mapeamento de Alta Performance",
+      "description": "Visualize, analise e gerencie seus dados geoespaciais com uma interface intuitiva e poderosa, construída inteiramente no navegador.",
+      "cta_main": "Agendar Demonstração",
+      "cta_secondary": "Ver Funcionalidades"
+    },
+    "features": {
+      "title": "Recursos Principais",
+      "items": {
+        "layers": {
+          "title": "Visualização de Camadas",
+          "description": "Suporte a múltiplos tipos de fonte: XYZ, WMS, WFS e GeoJSON com controle total de opacidade e ordenação."
+        },
+        "workspaces": {
+          "title": "Workspaces Inteligentes",
+          "description": "Organize suas camadas em conjuntos temáticos alternáveis para manter o foco em cada projeto."
+        },
+        "performance": {
+          "title": "Alta Performance",
+          "description": "Processamento e renderização rápida no navegador, conectando-se a backends otimizados."
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto para ver seus dados em ação?",
+      "description": "Agende uma apresentação personalizada para conhecer como o SOMAP pode transformar sua gestão geoespacial.",
+      "button": "Agendar Teste Gratuito"
+    }
+  },
+  "Portals": {
+    "title": "Presença Online",
+    "github": "GitHub",
+    "upwork": "Upwork",
+    "linkedin": "LinkedIn"
+  },
+  "Contact": {
+    "title": "Vamos conversar sobre seu projeto GIS",
+    "description": "Consulta gratuita de 30 minutos",
+    "cta_main": "Agendar Consulta Gratuita",
+    "cta_email": "Envie um e-mail"
+  }
+}

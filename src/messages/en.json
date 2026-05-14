@@ -1,0 +1,193 @@
+{
+  "Common": {
+    "nav": {
+      "services": "Services",
+      "somap": "SOMAP",
+      "contact": "Contact",
+      "cta": "Get in Touch"
+    },
+    "footer": {
+      "rights": "All rights reserved."
+    }
+  },
+  "Nav": {
+    "home": "Home",
+    "services": "Services",
+    "somap": "SOMAP",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "GIS Consulting"
+  },
+  "Social": {
+    "linkedin": "https://www.linkedin.com/in/silas-oliveira-41a633186/",
+    "instagram": "https://www.instagram.com/silasogis?igsh=MTV6dHJnZml3d3B4bg==",
+    "youtube": "https://www.youtube.com/@silasetgeo"
+  },
+  "somap": {
+    "hero": {
+      "badge": "WebGIS Platform",
+      "title": "High-Performance Spatial Observation and Mapping",
+      "description": "Visualize, analyze and manage your geospatial data with an intuitive and powerful interface, built entirely in the browser.",
+      "cta_main": "Schedule Demo",
+      "cta_secondary": "View Features"
+    },
+    "features": {
+      "title": "Main Features",
+      "items": {
+        "layers": {
+          "title": "Layer Visualization",
+          "description": "Support for multiple source types: XYZ, WMS, WFS and GeoJSON with full control of opacity and ordering."
+        },
+        "workspaces": {
+          "title": "Smart Workspaces",
+          "description": "Organize your layers into switchable thematic sets to stay focused on each project."
+        },
+        "performance": {
+          "title": "High Performance",
+          "description": "Fast browser-based processing and rendering, connecting to optimized backends."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to see your data in action?",
+      "description": "Schedule a personalized presentation to learn how SOMAP can transform your geospatial management.",
+      "button": "Schedule Free Trial"
+    }
+  },
+  "Consulting": {
+    "hero": {
+      "title": "Consulting",
+      "accent": "GIS",
+      "description": "I am a geospatial specialist with practical experience in projects of all sizes. I am ready to face any geospatial challenge."
+    },
+    "migration": {
+      "title": "Migration to Open Source GIS",
+      "description": "I manage every stage of your migration to open source GIS, from planning to ongoing support. My process includes:",
+      "items": [
+        "Assessment — Evaluation of your current GIS system and collection of real use needs from the team and stakeholders.",
+        "Migration Plan — Based on the assessment, I define a plan that minimizes disruptions while respecting time and budget constraints.",
+        "Implementation — I work side-by-side with your team to execute the migration plan.",
+        "Training and Documentation — I train the team to use the new open source GIS and deliver documentation of the main workflows.",
+        "Ongoing Support — No migration ends at go-live. I offer continuous support to ensure long-term success."
+      ],
+      "cta": "Get Started"
+    },
+    "database": {
+      "title": "Spatial Database Design",
+      "description": "Designing, building, and managing spatial databases with PostgreSQL/PostGIS is one of my core specialties. I build managed databases, cloud-hosted, integrated with QGIS to create robust multi-user systems."
+    },
+    "qgis": {
+      "title": "QGIS Development",
+      "description": "I create custom QGIS applications and plugins that accelerate workflows and automate repetitive tasks. Solutions can include custom data entry forms, deep integration with PostGIS databases, actions to open local or linked files, and enterprise features like role-based access control, row and column-level security, and tailored validation rules for your organization."
+    },
+    "products": {
+      "title": "Geospatial Data Products",
+      "description": "I help clients use geospatial analytics to solve problems, increase productivity, and improve locational awareness. Example products:",
+      "items": [
+        "Municipal legislation compliance monitoring",
+        "Urban Heat Island (UHI) maps",
+        "Tree Canopy Analysis",
+        "Vegetation and Green Areas Analysis",
+        "Demographic Profiles",
+        "Walkability Analysis",
+        "Land Use and Land Cover Change Analysis",
+        "Change Detection Analysis",
+        "Solar Potential Maps"
+      ]
+    },
+    "contact_cta": {
+      "title": "How can I help you?",
+      "description": "Get in touch today to schedule a free consultation.",
+      "button_main": "Schedule Free Consultation",
+      "button_back": "Back to Home"
+    }
+  },
+  "Hero": {
+    "badge": "Open Source GIS Consultant",
+    "title": "I turn geospatial data into open source solutions",
+    "description": "GIS consulting, WebGIS development, and technical support for projects that demand precision and reliability.",
+    "cta_primary": "View Services"
+  },
+  "SomapGlimpse": {
+    "title": "Discover SOMAP",
+    "description": "SOMAP is your preferred platform for managing and visualizing your geospatial data. With powerful tools and an intuitive interface, you can streamline your workflows and make informed decisions.",
+    "cta": "Learn more"
+  },
+  "ValueProp": {
+    "title": "Open Source GIS Specialist",
+    "description": "Full technical mastery in open geospatial technologies, from data infrastructure to user interface.",
+    "learn_more": "Learn more about my services",
+    "items": {
+      "databases": {
+        "title": "Databases",
+        "list": ["PostgreSQL & PostGIS", "MySQL, SQLite", "GeoPackage"]
+      },
+      "desktop": {
+        "title": "Desktop & GIS Servers",
+        "list": ["QGIS, GDAL, GRASS", "SAGA GIS", "GeoServer, MapServer"]
+      },
+      "dev": {
+        "title": "Web Development",
+        "list": ["Python (GeoDjango, FastAPI)", "React, Vue.js, Angular", "Leaflet, OpenLayers"]
+      }
+    }
+  },
+  "Services": {
+    "title": "What I offer",
+    "description": "Tailored solutions to optimize, build, and scale your geospatial infrastructure.",
+    "items": {
+      "consulting": {
+        "title": "GIS Consulting",
+        "description": "I help implement and optimize open source workflows with QGIS, PostGIS, GeoServer and more. ArcGIS/ESRI migrations are my specialty.",
+        "link": "Learn More"
+      },
+      "dev": {
+        "title": "WebGIS Development",
+        "description": "I create custom webGIS applications and data-driven tools tailored to your business using modern web technologies.",
+        "link": "Learn More"
+      },
+      "geoserver": {
+        "title": "Managed GeoServer",
+        "description": "GIS server as a service — PostgreSQL + PostGIS + GeoServer running in the cloud, fully maintained by me.",
+        "link": "Learn More"
+      },
+      "geomap": {
+        "title": "GeoMap",
+        "description": "Enterprise webGIS platform to intuitively share and visualize geospatial data and interactive maps.",
+        "link": "Learn More"
+      },
+      "hosting": {
+        "title": "GeoServer / PostGIS Hosting",
+        "description": "Dedicated and secure GIS server instances, meticulously configured and actively monitored by me.",
+        "link": "Learn More"
+      },
+      "training": {
+        "title": "Training & Support",
+        "description": "Custom training for your team in QGIS, PostGIS, and open source GIS workflows.",
+        "link": "Learn more"
+      },
+      "somap": {
+        "title": "SOMAP Platform",
+        "description": "Our proprietary WebGIS platform for high-performance visualization and analysis.",
+        "link": "Meet SOMAP"
+      }
+    }
+  },
+  "Support": {
+    "title": "Open Source GIS Support",
+    "description": "I offer pre-paid or dedicated support packages for PostgreSQL, PostGIS, GeoServer, QGIS, pgAdmin and other open source tools. I solve your technical issues quickly with quality assurance.",
+    "cta": "View Support Packages"
+  },
+  "Portals": {
+    "title": "Online Presence",
+    "github": "GitHub",
+    "upwork": "Upwork",
+    "linkedin": "LinkedIn"
+  },
+  "Contact": {
+    "title": "Let's talk about your GIS project",
+    "description": "Free 30-minute consultation",
+    "cta_main": "Schedule Free Consultation",
+    "cta_email": "Send an Email"
+  }
+}
