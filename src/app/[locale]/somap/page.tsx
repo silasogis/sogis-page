@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { MailIcon, Layout, Database, Zap, ShieldCheck } from "lucide-react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getAssetPath } from "@/lib/utils";
 
 export const dynamic = 'force-static';
 
@@ -46,7 +47,7 @@ export default async function SomapPage({ params }: { params: Promise<{ locale: 
             <div className="rounded-2xl overflow-hidden shadow-2xl border border-border bg-white p-2">
               <div className="rounded-xl overflow-hidden border border-border/50">
                 <Image
-                  src="/images/screenshot-map.png"
+                  src={getAssetPath("/images/screenshot-map.png")}
                   alt="SOMAP Interface"
                   width={1920}
                   height={1080}
@@ -132,7 +133,7 @@ export default async function SomapPage({ params }: { params: Promise<{ locale: 
             </div>
             <div className="rounded-3xl overflow-hidden shadow-2xl border border-border">
               <Image
-                src="/images/screenshot-login.png"
+                src={getAssetPath("/images/screenshot-login.png")}
                 alt="SOMAP Login"
                 width={1920}
                 height={1080}

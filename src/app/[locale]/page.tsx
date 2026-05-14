@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getAssetPath } from "@/lib/utils";
 
 export const dynamic = 'force-static';
 
@@ -56,7 +57,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <div className="order-2 lg:order-1">
               <div className="rounded-3xl overflow-hidden shadow-2xl border border-border bg-bg-alt">
                 <Image
-                  src="/images/screenshot-map.png"
+                  src={getAssetPath("/images/screenshot-map.png")}
                   alt="SOMAP Glimpse"
                   width={1200}
                   height={800}

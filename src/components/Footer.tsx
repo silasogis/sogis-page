@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { Linkedin, Instagram, Youtube, Mail, MapPin } from "lucide-react";
+import { getAssetPath } from "@/lib/utils";
 
 export default function Footer() {
   const t = useTranslations();
@@ -22,7 +23,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-6 group">
               <div className="w-8 h-8 bg-navy rounded-lg flex items-center justify-center overflow-hidden">
                 <Image 
-                  src="/images/somap-icons/somap-mark-paper.svg" 
+                  src={getAssetPath("/images/somap-icons/somap-mark-paper.svg")} 
                   alt="SOGIS Logo" 
                   width={20} 
                   height={20}

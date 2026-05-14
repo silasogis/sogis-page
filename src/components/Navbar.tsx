@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { Menu, X, Globe } from "lucide-react";
+import { getAssetPath } from "@/lib/utils";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
@@ -42,7 +43,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 group">
             <div className="w-10 h-10 bg-navy rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform overflow-hidden">
               <Image 
-                src="/images/somap-icons/somap-mark-paper.svg" 
+                src={getAssetPath("/images/somap-icons/somap-mark-paper.svg")} 
                 alt="SOGIS Logo" 
                 width={24} 
                 height={24}

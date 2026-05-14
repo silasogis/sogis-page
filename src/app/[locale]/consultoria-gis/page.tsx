@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import { ArrowRightIcon, MailIcon } from "lucide-react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getAssetPath } from "@/lib/utils";
 
 export const dynamic = 'force-static';
 
@@ -52,7 +53,7 @@ export default async function ConsultoriaGIS({ params }: { params: Promise<{ loc
             </div>
             <div className="relative w-full h-full min-h-[400px] rounded-3xl overflow-hidden shadow-2xl bg-bg-alt">
               <video
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/13174865_2160_3838_30fps.mp4`}
+                src={getAssetPath("/images/13174865_2160_3838_30fps.mp4")}
                 autoPlay loop muted playsInline
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -67,7 +68,7 @@ export default async function ConsultoriaGIS({ params }: { params: Promise<{ loc
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center flex-col-reverse lg:flex-row-reverse">
             <div className="order-2 lg:order-1 relative w-full h-64 sm:h-80 lg:h-full min-h-[400px] rounded-3xl overflow-hidden shadow-2xl bg-bg-alt">
               <Image
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/Postgresql-and-PostGIS-small-1-2048x782.webp`}
+                src={getAssetPath("/images/Postgresql-and-PostGIS-small-1-2048x782.webp")}
                 alt={t('database.title')}
                 fill
                 className="object-contain p-8"
@@ -107,7 +108,7 @@ export default async function ConsultoriaGIS({ params }: { params: Promise<{ loc
             <div className="relative flex justify-center items-center w-full h-[300px] lg:h-[400px] p-8">
               <div className="relative w-full h-full max-w-sm drop-shadow-2xl">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/qgis-logo.webp`}
+                  src={getAssetPath("/images/qgis-logo.webp")}
                   alt={t('qgis.title')}
                   fill
                   className="object-contain"
@@ -125,7 +126,7 @@ export default async function ConsultoriaGIS({ params }: { params: Promise<{ loc
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center flex-col-reverse lg:flex-row-reverse">
             <div className="order-2 lg:order-1 relative w-full h-64 sm:h-80 lg:h-full min-h-[400px] rounded-3xl overflow-hidden shadow-2xl bg-bg-alt">
               <Image
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/pexels-dawidtkocz-35757435.jpg`}
+                src={getAssetPath("/images/pexels-dawidtkocz-35757435.jpg")}
                 alt={t('products.title')}
                 fill
                 className="object-cover"
