@@ -60,14 +60,14 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="/#servicos" className="text-text-muted text-sm hover:text-teal transition-colors">
+                <Link href="/#servicos" className="text-text-muted text-sm hover:text-teal transition-colors">
                   {t("Services.items.dev.title")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/#servicos" className="text-text-muted text-sm hover:text-teal transition-colors">
+                <Link href="/#servicos" className="text-text-muted text-sm hover:text-teal transition-colors">
                   {t("Services.items.geoserver.title")}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -87,14 +87,14 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="/#sobre" className="text-text-muted text-sm hover:text-teal transition-colors">
+                <Link href="/#sobre" className="text-text-muted text-sm hover:text-teal transition-colors">
                   {t("Nav.about")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/#contato" className="text-text-muted text-sm hover:text-teal transition-colors">
+                <Link href="/#contato" className="text-text-muted text-sm hover:text-teal transition-colors">
                   {t("Nav.contact")}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

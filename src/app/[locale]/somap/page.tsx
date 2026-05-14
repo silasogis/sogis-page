@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { Link } from "@/i18n/routing";
-import { ArrowRightIcon, MailIcon, Layout, Database, Zap, ShieldCheck } from "lucide-react";
+import { MailIcon, Layout, Database, Zap, ShieldCheck } from "lucide-react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export const dynamic = 'force-static';

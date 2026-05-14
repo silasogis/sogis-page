@@ -9,7 +9,6 @@ export default async function ConsultoriaGIS({ params }: { params: Promise<{ loc
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("Consulting");
-  const tCommon = await getTranslations("Common");
 
   return (
     <div className="min-h-screen bg-bg text-color-text font-body selection:bg-teal/20">

@@ -39,12 +39,12 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             {t('Hero.description')}
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a
-              href="#servicos"
+            <Link
+              href="/#servicos"
               className="rounded-full bg-teal px-10 py-4 text-sm font-bold text-white shadow-lg hover:bg-teal-light transition-all"
             >
               {t('Hero.cta_primary')}
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -144,12 +144,12 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             </dl>
           </div>
           <div className="mt-16 text-center">
-            <a
-              href="#servicos"
+            <Link
+              href="/#servicos"
               className="inline-flex items-center gap-2 text-sm font-semibold leading-6 text-teal hover:text-teal-light transition-colors"
             >
               {t('ValueProp.learn_more')} <ExternalLinkIcon className="h-4 w-4" />
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -182,7 +182,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <p className="text-text-muted mb-6 flex-grow">
                 {t('Services.items.dev.description')}
               </p>
-              <a href="#contato" className="text-sm font-semibold text-teal">{t('Services.items.dev.link')} &rarr;</a>
+              <Link href="/#contato" className="text-sm font-semibold text-teal">{t('Services.items.dev.link')} &rarr;</Link>
             </div>
 
             {/* Service 3 */}
@@ -192,7 +192,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <p className="text-text-muted mb-6 flex-grow">
                 {t('Services.items.geoserver.description')}
               </p>
-              <a href="#contato" className="text-sm font-semibold text-teal">{t('Services.items.geoserver.link')} &rarr;</a>
+              <Link href="/#contato" className="text-sm font-semibold text-teal">{t('Services.items.geoserver.link')} &rarr;</Link>
             </div>
 
             {/* Service 4 */}
@@ -202,7 +202,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <p className="text-text-muted mb-6 flex-grow">
                 {t('Services.items.geomap.description')}
               </p>
-              <a href="#contato" className="text-sm font-semibold text-teal">{t('Services.items.geomap.link')} &rarr;</a>
+              <Link href="/#contato" className="text-sm font-semibold text-teal">{t('Services.items.geomap.link')} &rarr;</Link>
             </div>
 
             {/* Service 5 */}
@@ -212,7 +212,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <p className="text-text-muted mb-6 flex-grow">
                 {t('Services.items.hosting.description')}
               </p>
-              <a href="#contato" className="text-sm font-semibold text-teal">{t('Services.items.hosting.link')} &rarr;</a>
+              <Link href="/#contato" className="text-sm font-semibold text-teal">{t('Services.items.hosting.link')} &rarr;</Link>
             </div>
 
             {/* Service 6 (SOMAP) */}
@@ -240,7 +240,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <p className="text-text-muted mb-6 flex-grow">
                 {t('Services.items.training.description')}
               </p>
-              <a href="#contato" className="text-sm font-semibold text-teal">{t('Services.items.training.link')} &rarr;</a>
+              <Link href="/#contato" className="text-sm font-semibold text-teal">{t('Services.items.training.link')} &rarr;</Link>
             </div>
           </div>
         </div>
@@ -255,12 +255,12 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               {t('Support.description')}
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#contato"
+              <Link
+                href="/#contato"
                 className="rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-navy shadow-sm hover:bg-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white transition-all shadow-lg"
               >
                 {t('Support.cta')}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
