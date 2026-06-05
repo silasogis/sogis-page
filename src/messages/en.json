@@ -48,6 +48,17 @@
         }
       }
     },
+    "demos": {
+      "title": "Feature Demonstrations",
+      "geocoding": {
+        "title": "Geocoding",
+        "description": "Fast and precise address search based on Nominatim and OpenStreetMap, instantly converting coordinates while eliminating the need for paid commercial licenses like Google Maps."
+      },
+      "routing": {
+        "title": "Routing",
+        "description": "Dynamic point-to-point route creation and optimal path calculation directly on the map, powered by pgRouting, PostGIS, and OpenStreetMap data, completely free of proprietary commercial licensing."
+      }
+    },
     "cta": {
       "title": "Ready to see your data in action?",
       "description": "Schedule a personalized presentation to learn how SOMAP can transform your geospatial management.",

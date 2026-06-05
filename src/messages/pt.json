@@ -173,6 +173,17 @@
         }
       }
     },
+    "demos": {
+      "title": "Demonstração de Recursos",
+      "geocoding": {
+        "title": "Geocodificação",
+        "description": "Busca rápida e precisa de endereços baseada em Nominatim e OpenStreetMap, convertendo coordenadas de forma instantânea e dispensando custos de licenças pagas como a do Google Maps."
+      },
+      "routing": {
+        "title": "Roteamento",
+        "description": "Criação de rotas dinâmicas ponto a ponto e cálculo do trajeto mais eficiente diretamente no mapa, utilizando pgRouting, PostGIS e bases OpenStreetMap, totalmente livre de licenças comerciais proprietárias."
+      }
+    },
     "cta": {
       "title": "Pronto para ver seus dados em ação?",
       "description": "Agende uma apresentação personalizada para conhecer como o SOMAP pode transformar sua gestão geoespacial.",

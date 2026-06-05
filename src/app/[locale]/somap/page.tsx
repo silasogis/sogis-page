@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { MailIcon, Layout, Database, Zap, ShieldCheck } from "lucide-react";
+import { MailIcon, Layout, Database, Zap, ShieldCheck, MapPin, Navigation } from "lucide-react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getAssetPath } from "@/lib/utils";
 
@@ -97,6 +97,91 @@ export default async function SomapPage({ params }: { params: Promise<{ locale: 
               <p className="text-text-muted leading-relaxed text-sm">
                 {t("features.items.performance.description")}
               </p>
+            </div>
+          </div>
+
+          {/* Real-time Demos */}
+          <div className="mt-24 pt-16 border-t border-border/60">
+            <div className="text-center mb-16">
+              <h3 className="text-2xl md:text-3xl font-bold text-navy">
+                {t("demos.title")}
+              </h3>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              {/* Geocoding Demo Card */}
+              <div className="bg-white rounded-3xl border border-border shadow-card hover:shadow-card-hover transition-all overflow-hidden flex flex-col justify-between">
+                <div>
+                  {/* Browser Mock Header */}
+                  <div className="bg-bg border-b border-border/60 px-5 py-3 flex items-center gap-1.5">
+                    <div className="w-2.5 h-2.5 rounded-full bg-red-400/80" />
+                    <div className="w-2.5 h-2.5 rounded-full bg-yellow-400/80" />
+                    <div className="w-2.5 h-2.5 rounded-full bg-green-400/80" />
+                  </div>
+                  {/* Image Container (No extra nested card margins) */}
+                  <div className="relative overflow-hidden bg-bg">
+                    <Image
+                      src={getAssetPath("/images/geocoding.gif")}
+                      alt={t("demos.geocoding.title")}
+                      width={1920}
+                      height={1080}
+                      unoptimized
+                      className="w-full h-auto"
+                    />
+                  </div>
+                  {/* Content below image */}
+                  <div className="p-6 md:p-8">
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-10 h-10 bg-teal/10 rounded-xl flex items-center justify-center text-teal">
+                        <MapPin size={20} />
+                      </div>
+                      <h4 className="text-xl font-bold text-navy">
+                        {t("demos.geocoding.title")}
+                      </h4>
+                    </div>
+                    <p className="text-text-muted leading-relaxed text-sm">
+                      {t("demos.geocoding.description")}
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Routing Demo Card */}
+              <div className="bg-white rounded-3xl border border-border shadow-card hover:shadow-card-hover transition-all overflow-hidden flex flex-col justify-between">
+                <div>
+                  {/* Browser Mock Header */}
+                  <div className="bg-bg border-b border-border/60 px-5 py-3 flex items-center gap-1.5">
+                    <div className="w-2.5 h-2.5 rounded-full bg-red-400/80" />
+                    <div className="w-2.5 h-2.5 rounded-full bg-yellow-400/80" />
+                    <div className="w-2.5 h-2.5 rounded-full bg-green-400/80" />
+                  </div>
+                  {/* Image Container (No extra nested card margins) */}
+                  <div className="relative overflow-hidden bg-bg">
+                    <Image
+                      src={getAssetPath("/images/routing.gif")}
+                      alt={t("demos.routing.title")}
+                      width={1920}
+                      height={1080}
+                      unoptimized
+                      className="w-full h-auto"
+                    />
+                  </div>
+                  {/* Content below image */}
+                  <div className="p-6 md:p-8">
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-10 h-10 bg-teal/10 rounded-xl flex items-center justify-center text-teal">
+                        <Navigation size={20} />
+                      </div>
+                      <h4 className="text-xl font-bold text-navy">
+                        {t("demos.routing.title")}
+                      </h4>
+                    </div>
+                    <p className="text-text-muted leading-relaxed text-sm">
+                      {t("demos.routing.description")}
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
