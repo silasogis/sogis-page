@@ -88,6 +88,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/apis" className="text-text-muted text-sm hover:text-teal transition-colors">
+                  {t("Nav.apis")}
+                </Link>
+              </li>
+              <li>
                 <Link href="/#sobre" className="text-text-muted text-sm hover:text-teal transition-colors">
                   {t("Nav.about")}
                 </Link>

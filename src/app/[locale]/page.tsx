@@ -231,6 +231,21 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </Link>
             </div>
 
+            {/* Service 6.5 (APIs) */}
+            <div className="flex flex-col bg-bg-alt p-8 rounded-3xl border border-border hover:-translate-y-1 transition-transform duration-300 shadow-card hover:shadow-card-hover group">
+              <div className="flex items-center gap-3 mb-6">
+                <TerminalIcon className="h-8 w-8 text-teal animate-pulse" />
+                <span className="text-teal font-bold text-[10px] tracking-widest uppercase">GIS APIs</span>
+              </div>
+              <h3 className="text-xl font-bold text-navy mb-3">{t('Services.items.apis.title')}</h3>
+              <p className="text-text-muted mb-6 flex-grow text-sm">
+                {t('Services.items.apis.description')}
+              </p>
+              <Link href="/apis" className="text-sm font-bold text-teal hover:text-teal-light transition-colors">
+                {t('Services.items.apis.link')} &rarr;
+              </Link>
+            </div>
+
             {/* Service 7 */}
             <div className="flex flex-col bg-bg-alt p-8 rounded-3xl border border-border hover:-translate-y-1 transition-transform duration-300">
               <div className="flex items-center gap-3 mb-6">

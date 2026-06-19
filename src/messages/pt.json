@@ -14,6 +14,7 @@
     "home": "Início",
     "services": "Serviços",
     "somap": "SOMAP",
+    "apis": "APIs",
     "about": "Sobre",
     "contact": "Contato",
     "cta": "Consultoria GIS"
@@ -140,6 +141,11 @@
         "title": "Plataforma SOMAP",
         "description": "Nossa plataforma WebGIS própria para visualização e análise de alta performance.",
         "link": "Conhecer SOMAP"
+      },
+      "apis": {
+        "title": "Serviços de API",
+        "description": "APIs robustas e de alta performance de geocodificação e roteamento sob demanda para sistemas corporativos e logísticos.",
+        "link": "Explorar APIs"
       }
     }
   },
@@ -201,5 +207,60 @@
     "description": "Consulta gratuita de 30 minutos",
     "cta_main": "Agendar Consulta Gratuita",
     "cta_email": "Envie um e-mail"
+  },
+  "apis": {
+    "hero": {
+      "badge": "Infraestrutura GIS",
+      "title": "APIs GIS de Alta Performance para Geocodificação e Roteamento",
+      "description": "Hospedo e gerencio servidores dedicados com Nominatim e mecanismos de roteamento otimizados, oferecendo alternativas robustas e de baixo custo às soluções proprietárias.",
+      "cta_main": "Testar no Console",
+      "cta_secondary": "Conhecer Licenciamentos"
+    },
+    "pillars": {
+      "title": "Modelos de Licenciamento & Serviços",
+      "description": "Disponibilizo estas APIs em diferentes formatos para atender às necessidades técnicas, de privacidade e de custo da sua empresa.",
+      "onprem": {
+        "title": "Licenciamento On-Premise",
+        "description": "Instalação das APIs diretamente no servidor ou infraestrutura local (Docker) da sua empresa. Requisições ilimitadas, latência zero dentro da rede interna e total conformidade com a LGPD."
+      },
+      "saas": {
+        "title": "API como Serviço (SaaS B2B)",
+        "description": "Endpoints em nuvem monitorados por mim, com CDN Cloudflare. Ideal para equipes que precisam de geocodificação e rotas prontas para uso, com cobrança baseada em capacidade de requisições."
+      },
+      "logistics": {
+        "title": "Consultoria de Integração",
+        "description": "Apoio no desenvolvimento e acoplamento das APIs ao seu software de logística, ERP ou WMS, garantindo máxima performance e correto aproveitamento de dados geográficos."
+      },
+      "custom": {
+        "title": "Customização de Rotas e Dados",
+        "description": "Adaptação dos mapas para contemplar redes viárias customizadas, regras de restrição de tráfego específicas para frotas pesadas, ou enriquecimento da geocodificação com bases municipais."
+      }
+    },
+    "console": {
+      "title": "Console do Desenvolvedor (API Sandbox)",
+      "description": "Experimente nossas APIs GIS diretamente no navegador. Altere os parâmetros para ver o código de integração e a resposta JSON correspondente. Observação: Para fins de demonstração, as consultas reais estão limitadas à cobertura dos estados do Paraná (PR), Santa Catarina (SC) e Rio Grande do Sul (RS).",
+      "tab_nominatim": "Geocodificação (Nominatim)",
+      "tab_routing": "Roteamento de Vias",
+      "input_address": "Endereço ou local para geocodificar",
+      "input_address_placeholder": "Ex: Av. Paulista, 1000, São Paulo - SP",
+      "input_coord": "Coordenadas (Lat, Lon)",
+      "input_coord_placeholder": "Ex: -23.561, -46.655",
+      "input_origin": "Origem (Lat, Lon)",
+      "input_dest": "Destino (Lat, Lon)",
+      "input_profile": "Perfil de Roteamento",
+      "profile_car": "Carro / Veículo Leve",
+      "profile_truck": "Caminhão / Veículo Pesado",
+      "profile_bike": "Bicicleta",
+      "profile_foot": "Pedestre",
+      "btn_test": "Executar Chamada",
+      "btn_testing": "Executando...",
+      "code_title": "Código de Integração",
+      "response_title": "Resposta JSON da API"
+    },
+    "cta": {
+      "title": "Pronto para otimizar sua infraestrutura GIS?",
+      "description": "Entre em contato para solicitar chaves de teste, agendar demonstrações de volume ou avaliar o licenciamento On-Premise para sua empresa.",
+      "button": "Agendar Reunião Técnica"
+    }
   }
 }

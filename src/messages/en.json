@@ -14,6 +14,7 @@
     "home": "Home",
     "services": "Services",
     "somap": "SOMAP",
+    "apis": "APIs",
     "about": "About",
     "contact": "Contact",
     "cta": "GIS Consulting"
@@ -181,6 +182,11 @@
         "title": "SOMAP Platform",
         "description": "Our proprietary WebGIS platform for high-performance visualization and analysis.",
         "link": "Meet SOMAP"
+      },
+      "apis": {
+        "title": "API Services",
+        "description": "Robust and high-performance routing and geocoding APIs on demand for enterprise and logistics systems.",
+        "link": "Explore APIs"
       }
     }
   },
@@ -200,5 +206,60 @@
     "description": "Free 30-minute consultation",
     "cta_main": "Schedule Free Consultation",
     "cta_email": "Send an Email"
+  },
+  "apis": {
+    "hero": {
+      "badge": "GIS Infrastructure",
+      "title": "High-Performance GIS APIs for Geocoding and Routing",
+      "description": "I host and manage dedicated servers with Nominatim and optimized routing engines, providing robust, cost-effective alternatives to proprietary solutions.",
+      "cta_main": "Try Sandbox Console",
+      "cta_secondary": "View Licensing"
+    },
+    "pillars": {
+      "title": "Licensing Models & Services",
+      "description": "I provide these APIs in various deployment styles to fit your company's technical, privacy, and budget needs.",
+      "onprem": {
+        "title": "On-Premise Licensing",
+        "description": "Deploy the APIs directly on your company's local servers or private cloud infrastructure (Docker). Enjoy unlimited queries, zero internal network latency, and complete data privacy compliance."
+      },
+      "saas": {
+        "title": "API as a Service (SaaS B2B)",
+        "description": "Cloud-hosted endpoints monitored by me, powered by Cloudflare CDN. Perfect for teams needing ready-to-use geocoding and routing services with scale-based subscription pricing."
+      },
+      "logistics": {
+        "title": "Integration Consulting",
+        "description": "Dedicated developer support to integrate the GIS APIs into your logistics software, ERP, or fleet WMS, ensuring maximum query efficiency and geospatial accuracy."
+      },
+      "custom": {
+        "title": "Route & Data Customization",
+        "description": "Adapt routing networks to respect custom vehicle limits, specific commercial road restrictions, or enrich address databases with custom municipal GIS layers."
+      }
+    },
+    "console": {
+      "title": "Developer Console (API Sandbox)",
+      "description": "Test our GIS APIs directly inside your browser. Tweak parameters to update the integration code snippets and view the live JSON response. Note: For demonstration purposes, live queries are limited to coverage of the states of Paraná (PR), Santa Catarina (SC), and Rio Grande do Sul (RS).",
+      "tab_nominatim": "Geocoding (Nominatim)",
+      "tab_routing": "Street Routing",
+      "input_address": "Address or place to geocode",
+      "input_address_placeholder": "E.g., 1600 Amphitheatre Pkwy, Mountain View, CA",
+      "input_coord": "Coordinates (Lat, Lon)",
+      "input_coord_placeholder": "E.g., 37.422, -122.084",
+      "input_origin": "Origin (Lat, Lon)",
+      "input_dest": "Destination (Lat, Lon)",
+      "input_profile": "Routing Profile",
+      "profile_car": "Car / Light Vehicle",
+      "profile_truck": "Truck / Heavy Vehicle",
+      "profile_bike": "Bicycle",
+      "profile_foot": "Pedestrian",
+      "btn_test": "Execute Call",
+      "btn_testing": "Executing...",
+      "code_title": "Integration Snippet",
+      "response_title": "API JSON Response"
+    },
+    "cta": {
+      "title": "Ready to optimize your GIS infrastructure?",
+      "description": "Get in touch to request sandbox API keys, schedule capacity load tests, or evaluate On-Premise deployments for your enterprise.",
+      "button": "Book Technical Meeting"
+    }
   }
 }

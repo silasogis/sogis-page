@@ -25,6 +25,7 @@ export default function Navbar() {
     { href: "/", label: t("home") },
     { href: "/#sobre", label: t("about") },
     { href: "/somap", label: t("somap") },
+    { href: "/apis", label: t("apis") },
     { href: "/consultoria-gis", label: t("services") },
     { href: "/#contato", label: t("contact") },
   ];
