@@ -9,18 +9,18 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: <Linkedin size={20} />, href: t("Social.linkedin"), label: "LinkedIn" },
-    { icon: <Instagram size={20} />, href: t("Social.instagram"), label: "Instagram" },
-    { icon: <Youtube size={20} />, href: t("Social.youtube"), label: "YouTube" },
+    { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/silas-oliveira-41a633186/", label: "LinkedIn" },
+    { icon: <Instagram size={20} />, href: "https://www.instagram.com/silasogis?igsh=MTV6dHJnZml3d3B4bg==", label: "Instagram" },
+    { icon: <Youtube size={20} />, href: "https://www.youtube.com/@silasetgeo", label: "YouTube" },
   ];
 
   return (
     <footer className="bg-white border-t border-border pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           {/* Brand Col */}
           <div className="md:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-6 group">
+            <Link href="/#inicio" className="flex items-center gap-2 mb-6 group">
               <div className="w-8 h-8 bg-navy rounded-lg flex items-center justify-center overflow-hidden">
                 <Image 
                   src={getAssetPath("/images/somap-icons/somap-mark-paper.svg")} 
@@ -51,50 +51,28 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Links Col 1 */}
+          {/* Links Col */}
           <div>
-            <h4 className="text-navy font-bold mb-6">{t("Nav.services")}</h4>
+            <h4 className="text-navy font-bold mb-6">Navegação</h4>
             <ul className="space-y-4">
               <li>
-                <Link href="/consultoria-gis" className="text-text-muted text-sm hover:text-teal transition-colors">
-                  {t("Services.items.consulting.title")}
-                </Link>
-              </li>
-              <li>
-                <Link href="/#servicos" className="text-text-muted text-sm hover:text-teal transition-colors">
-                  {t("Services.items.dev.title")}
-                </Link>
-              </li>
-              <li>
-                <Link href="/#servicos" className="text-text-muted text-sm hover:text-teal transition-colors">
-                  {t("Services.items.geoserver.title")}
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Links Col 2 */}
-          <div>
-            <h4 className="text-navy font-bold mb-6">Empresa</h4>
-            <ul className="space-y-4">
-              <li>
-                <Link href="/" className="text-text-muted text-sm hover:text-teal transition-colors">
+                <Link href="/#inicio" className="text-text-muted text-sm hover:text-teal transition-colors">
                   {t("Nav.home")}
                 </Link>
               </li>
               <li>
-                <Link href="/somap" className="text-text-muted text-sm hover:text-teal transition-colors">
+                <Link href="/#desafio" className="text-text-muted text-sm hover:text-teal transition-colors">
+                  {t("Nav.challenge")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/#somap" className="text-text-muted text-sm hover:text-teal transition-colors">
                   {t("Nav.somap")}
                 </Link>
               </li>
               <li>
-                <Link href="/apis" className="text-text-muted text-sm hover:text-teal transition-colors">
-                  {t("Nav.apis")}
-                </Link>
-              </li>
-              <li>
-                <Link href="/#sobre" className="text-text-muted text-sm hover:text-teal transition-colors">
-                  {t("Nav.about")}
+                <Link href="/#pilares" className="text-text-muted text-sm hover:text-teal transition-colors">
+                  {t("Nav.pillars")}
                 </Link>
               </li>
               <li>
@@ -107,7 +85,7 @@ export default function Footer() {
 
           {/* Contact Col */}
           <div>
-            <h4 className="text-navy font-bold mb-6">{t("Nav.contact")}</h4>
+            <h4 className="text-navy font-bold mb-6">Contato</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-text-muted text-sm">
                 <Mail size={18} className="text-teal shrink-0" />

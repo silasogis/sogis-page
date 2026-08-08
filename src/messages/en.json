@@ -1,265 +1,80 @@
 {
-  "Common": {
-    "nav": {
-      "services": "Services",
-      "somap": "SOMAP",
-      "contact": "Contact",
-      "cta": "Get in Touch"
-    },
-    "footer": {
-      "rights": "All rights reserved."
-    }
-  },
   "Nav": {
     "home": "Home",
-    "services": "Services",
-    "somap": "SOMAP",
-    "apis": "APIs",
-    "about": "About",
+    "challenge": "The Challenge",
+    "somap": "SOMAP Engine",
+    "pillars": "Pillars",
     "contact": "Contact",
-    "cta": "GIS Consulting"
+    "cta": "Schedule Diagnostic"
   },
-  "Social": {
-    "linkedin": "https://www.linkedin.com/in/silas-oliveira-41a633186/",
-    "instagram": "https://www.instagram.com/silasogis?igsh=MTV6dHJnZml3d3B4bg==",
-    "youtube": "https://www.youtube.com/@silasetgeo"
-  },
-  "somap": {
-    "hero": {
-      "badge": "WebGIS Platform",
-      "title": "High-Performance Spatial Observation and Mapping",
-      "description": "Visualize, analyze and manage your geospatial data with an intuitive and powerful interface, built entirely in the browser.",
-      "cta_main": "Schedule Demo",
-      "cta_secondary": "View Features"
-    },
-    "features": {
-      "title": "Main Features",
-      "items": {
-        "layers": {
-          "title": "Layer Visualization",
-          "description": "Support for multiple source types: XYZ, WMS, WFS and GeoJSON with full control of opacity and ordering."
-        },
-        "workspaces": {
-          "title": "Smart Workspaces",
-          "description": "Organize your layers into switchable thematic sets to stay focused on each project."
-        },
-        "performance": {
-          "title": "High Performance",
-          "description": "Fast browser-based processing and rendering, connecting to optimized backends."
-        }
-      }
-    },
-    "demos": {
-      "title": "Feature Demonstrations",
-      "geocoding": {
-        "title": "Geocoding",
-        "description": "Fast and precise address search based on Nominatim and OpenStreetMap, instantly converting coordinates while eliminating the need for paid commercial licenses like Google Maps."
-      },
-      "routing": {
-        "title": "Routing",
-        "description": "Dynamic point-to-point route creation and optimal path calculation directly on the map, powered by pgRouting, PostGIS, and OpenStreetMap data, completely free of proprietary commercial licensing."
-      }
-    },
-    "cta": {
-      "title": "Ready to see your data in action?",
-      "description": "Schedule a personalized presentation to learn how SOMAP can transform your geospatial management.",
-      "button": "Schedule Free Trial"
-    }
-  },
-  "Consulting": {
-    "hero": {
-      "title": "Consulting",
-      "accent": "GIS",
-      "description": "I am a geospatial specialist with practical experience in projects of all sizes. I am ready to face any geospatial challenge."
-    },
-    "migration": {
-      "title": "Migration to Open Source GIS",
-      "description": "I manage every stage of your migration to open source GIS, from planning to ongoing support. My process includes:",
-      "items": [
-        "Assessment — Evaluation of your current GIS system and collection of real use needs from the team and stakeholders.",
-        "Migration Plan — Based on the assessment, I define a plan that minimizes disruptions while respecting time and budget constraints.",
-        "Implementation — I work side-by-side with your team to execute the migration plan.",
-        "Training and Documentation — I train the team to use the new open source GIS and deliver documentation of the main workflows.",
-        "Ongoing Support — No migration ends at go-live. I offer continuous support to ensure long-term success."
-      ],
-      "cta": "Get Started"
-    },
-    "database": {
-      "title": "Spatial Database Design",
-      "description": "Designing, building, and managing spatial databases with PostgreSQL/PostGIS is one of my core specialties. I build managed databases, cloud-hosted, integrated with QGIS to create robust multi-user systems."
-    },
-    "qgis": {
-      "title": "QGIS Development",
-      "description": "I create custom QGIS applications and plugins that accelerate workflows and automate repetitive tasks. Solutions can include custom data entry forms, deep integration with PostGIS databases, actions to open local or linked files, and enterprise features like role-based access control, row and column-level security, and tailored validation rules for your organization."
-    },
-    "products": {
-      "title": "Geospatial Data Products",
-      "description": "I help clients use geospatial analytics to solve problems, increase productivity, and improve locational awareness. Example products:",
-      "items": [
-        "Municipal legislation compliance monitoring",
-        "Urban Heat Island (UHI) maps",
-        "Tree Canopy Analysis",
-        "Vegetation and Green Areas Analysis",
-        "Demographic Profiles",
-        "Walkability Analysis",
-        "Land Use and Land Cover Change Analysis",
-        "Change Detection Analysis",
-        "Solar Potential Maps"
-      ]
-    },
-    "contact_cta": {
-      "title": "How can I help you?",
-      "description": "Get in touch today to schedule a free consultation.",
-      "button_main": "Schedule Free Consultation",
-      "button_back": "Back to Home"
+  "Common": {
+    "footer": {
+      "rights": "All rights reserved. Designed and developed by Silas Oliveira."
     }
   },
   "Hero": {
-    "badge": "Open Source GIS Consultant",
-    "title": "I turn geospatial data into open source solutions",
-    "description": "GIS consulting, WebGIS development, and technical support for projects that demand precision and reliability.",
-    "cta_primary": "View Services"
-  },
-  "SomapGlimpse": {
-    "title": "Discover SOMAP",
-    "description": "SOMAP is your preferred platform for managing and visualizing your geospatial data. With powerful tools and an intuitive interface, you can streamline your workflows and make informed decisions.",
-    "cta": "Learn more"
+    "badge": "GIS Solutions Architecture & Consulting",
+    "title": "High-Performance Technological Sovereignty and Spatial Intelligence",
+    "description": "I design custom spatial infrastructures for complex operations. Reduce variable logistics costs to zero per request, guarantee actual fleet governance, and gain absolute topological control of your road network.",
+    "cta_primary": "Schedule Free Diagnostic"
   },
   "ValueProp": {
-    "title": "Open Source GIS Specialist",
-    "description": "Full technical mastery in open geospatial technologies, from data infrastructure to user interface.",
-    "learn_more": "Learn more about my services",
+    "title": "End-to-End Geospatial Pipeline Mastery",
+    "description": "A rare combination of geographic spatial understanding and robust software engineering. I develop from the spatial database design to the final analytical dashboard, ensuring independence from expensive commercial licenses.",
     "items": {
       "databases": {
-        "title": "Databases",
-        "list": ["PostgreSQL & PostGIS", "MySQL, SQLite", "GeoPackage"]
+        "title": "Scalable Architectures",
+        "description": "Spatial database modeling using PostgreSQL and PostGIS optimized for high-volume geographical data."
       },
-      "desktop": {
-        "title": "Desktop & GIS Servers",
-        "list": ["QGIS, GDAL, GRASS", "SAGA GIS", "GeoServer, MapServer"]
+      "integration": {
+        "title": "Enterprise Integration",
+        "description": "Integration of dedicated routing engines directly into existing ERP, WMS, and third-party routing systems."
       },
-      "dev": {
-        "title": "Web Development",
-        "list": ["Python (GeoDjango, FastAPI)", "React, Vue.js, Angular", "Leaflet, OpenLayers"]
+      "analytics": {
+        "title": "Advanced Spatial Analytics",
+        "description": "Custom algorithm development in pgRouting to translate geographic data into strategic business decisions."
       }
     }
   },
-  "Services": {
-    "title": "What I offer",
-    "description": "Tailored solutions to optimize, build, and scale your geospatial infrastructure.",
-    "items": {
-      "consulting": {
-        "title": "GIS Consulting",
-        "description": "I help implement and optimize open source workflows with QGIS, PostGIS, GeoServer and more. ArcGIS/ESRI migrations are my specialty.",
-        "link": "Learn More"
-      },
-      "dev": {
-        "title": "WebGIS Development",
-        "description": "I create custom webGIS applications and data-driven tools tailored to your business using modern web technologies.",
-        "link": "Learn More"
-      },
-      "geoserver": {
-        "title": "Managed GeoServer",
-        "description": "GIS server as a service — PostgreSQL + PostGIS + GeoServer running in the cloud, fully maintained by me.",
-        "link": "Learn More"
-      },
-      "geomap": {
-        "title": "GeoMap",
-        "description": "Enterprise webGIS platform to intuitively share and visualize geospatial data and interactive maps.",
-        "link": "Learn More"
-      },
-      "hosting": {
-        "title": "GeoServer / PostGIS Hosting",
-        "description": "Dedicated and secure GIS server instances, meticulously configured and actively monitored by me.",
-        "link": "Learn More"
-      },
-      "training": {
-        "title": "Training & Support",
-        "description": "Custom training for your team in QGIS, PostGIS, and open source GIS workflows.",
-        "link": "Learn more"
-      },
-      "somap": {
-        "title": "SOMAP Platform",
-        "description": "Our proprietary WebGIS platform for high-performance visualization and analysis.",
-        "link": "Meet SOMAP"
-      },
-      "apis": {
-        "title": "API Services",
-        "description": "Robust and high-performance routing and geocoding APIs on demand for enterprise and logistics systems.",
-        "link": "Explore APIs"
-      }
-    }
+  "Challenge": {
+    "title": "The Commercial Routing API Trap",
+    "subtitle": "Why are robust fleets paying high costs for generic solutions?",
+    "description": "Proprietary APIs charge for every single route or geocode request. As your operation scales, the bill becomes unpredictable and exorbitant. Furthermore, these APIs cannot accommodate constraints specific to your fleet.",
+    "card_commercial_title": "The Current Scenario (Third-party APIs)",
+    "card_commercial_desc": "Variable and growing costs, dependency on big tech cloud infrastructure, generic traffic restrictions, and bills that scale as your business grows.",
+    "card_local_title": "The Solution (Sovereignty)",
+    "card_local_desc": "Local routing engine hosted in a secure environment. Zero cost per request, minimal latency, total data sovereignty, and fleet rules parameterized to your exact needs."
   },
-  "Support": {
-    "title": "Open Source GIS Support",
-    "description": "I offer pre-paid or dedicated support packages for PostgreSQL, PostGIS, GeoServer, QGIS, pgAdmin and other open source tools. I solve your technical issues quickly with quality assurance.",
-    "cta": "View Support Packages"
+  "SomapEngine": {
+    "badge": "Mapping Engine",
+    "title": "SOMAP: The Core of Your Sovereignty",
+    "description": "SOMAP is not just an off-the-shelf product; it is the architectural foundation I deploy inside your environment. It enables directors and operations managers to visualize spatial data in real-time, manage dynamic workspaces, and perform spatial audits without depending on external licenses.",
+    "screenshot_alt": "SOMAP Analytical Dashboard"
   },
-  "Portals": {
-    "title": "Online Presence",
-    "github": "GitHub",
-    "upwork": "Upwork",
-    "linkedin": "LinkedIn"
+  "Pillars": {
+    "title": "Three Pillars of Financial Impact",
+    "subtitle": "Focus is on the financial return and operational efficiency of your routes.",
+    "routing_title": "Predictability and Zero Cost",
+    "routing_desc": "Replacing per-call fees with a robust local infrastructure using pgRouting. The number of routes calculated per second stops impacting your bottom line.",
+    "bi_title": "Governance & Financial Audit",
+    "bi_desc": "Spatial BI dashboards matching planned routes with executed ones, enabling detailed audits of fuel consumption, actual mileage, and travel time.",
+    "topology_title": "Absolute Topological Control",
+    "topology_desc": "Parametrization of custom routing constraints that generic APIs do not offer: vehicle height/weight, urban restrictions by time of day, and risk maps."
+  },
+  "CustomEngineering": {
+    "title": "Custom Geospatial Engineering",
+    "subtitle": "High-impact enterprise applications designed and deployed end-to-end.",
+    "observation_title": "Observation & Diagnostic Platforms",
+    "observation_desc": "Creation of robust APIs and WebGIS applications integrating engines like Google Earth Engine for automated calculations, environmental monitoring, and vegetation data analysis.",
+    "logistics_title": "Public Management Logistics",
+    "logistics_desc": "Database development and synchronization for complex governmental logistics, such as school transport fleet management and routing.",
+    "infrastructure_title": "Corporate Infrastructure Optimization",
+    "infrastructure_desc": "Configuration and management of large-scale server environments and workspaces, applying GeoServer tuning, format viability testing for field operations, and performance plugin implementation for fast map rendering."
   },
   "Contact": {
-    "title": "Let's talk about your GIS project",
-    "description": "Free 30-minute consultation",
-    "cta_main": "Schedule Free Consultation",
-    "cta_email": "Send an Email"
-  },
-  "apis": {
-    "hero": {
-      "badge": "GIS Infrastructure",
-      "title": "High-Performance GIS APIs for Geocoding and Routing",
-      "description": "I host and manage dedicated servers with Nominatim and optimized routing engines, providing robust, cost-effective alternatives to proprietary solutions.",
-      "cta_main": "Try Sandbox Console",
-      "cta_secondary": "View Licensing"
-    },
-    "pillars": {
-      "title": "Licensing Models & Services",
-      "description": "I provide these APIs in various deployment styles to fit your company's technical, privacy, and budget needs.",
-      "onprem": {
-        "title": "On-Premise Licensing",
-        "description": "Deploy the APIs directly on your company's local servers or private cloud infrastructure (Docker). Enjoy unlimited queries, zero internal network latency, and complete data privacy compliance."
-      },
-      "saas": {
-        "title": "API as a Service (SaaS B2B)",
-        "description": "Cloud-hosted endpoints monitored by me, powered by Cloudflare CDN. Perfect for teams needing ready-to-use geocoding and routing services with scale-based subscription pricing."
-      },
-      "logistics": {
-        "title": "Integration Consulting",
-        "description": "Dedicated developer support to integrate the GIS APIs into your logistics software, ERP, or fleet WMS, ensuring maximum query efficiency and geospatial accuracy."
-      },
-      "custom": {
-        "title": "Route & Data Customization",
-        "description": "Adapt routing networks to respect custom vehicle limits, specific commercial road restrictions, or enrich address databases with custom municipal GIS layers."
-      }
-    },
-    "console": {
-      "title": "Developer Console (API Sandbox)",
-      "description": "Test our GIS APIs directly inside your browser. Tweak parameters to update the integration code snippets and view the live JSON response. Note: For demonstration purposes, live queries are limited to coverage of the states of Paraná (PR), Santa Catarina (SC), and Rio Grande do Sul (RS).",
-      "tab_nominatim": "Geocoding (Nominatim)",
-      "tab_routing": "Street Routing",
-      "input_address": "Address or place to geocode",
-      "input_address_placeholder": "E.g., 1600 Amphitheatre Pkwy, Mountain View, CA",
-      "input_coord": "Coordinates (Lat, Lon)",
-      "input_coord_placeholder": "E.g., 37.422, -122.084",
-      "input_origin": "Origin (Lat, Lon)",
-      "input_dest": "Destination (Lat, Lon)",
-      "input_profile": "Routing Profile",
-      "profile_car": "Car / Light Vehicle",
-      "profile_truck": "Truck / Heavy Vehicle",
-      "profile_bike": "Bicycle",
-      "profile_foot": "Pedestrian",
-      "btn_test": "Execute Call",
-      "btn_testing": "Executing...",
-      "code_title": "Integration Snippet",
-      "response_title": "API JSON Response"
-    },
-    "cta": {
-      "title": "Ready to optimize your GIS infrastructure?",
-      "description": "Get in touch to request sandbox API keys, schedule capacity load tests, or evaluate On-Premise deployments for your enterprise.",
-      "button": "Book Technical Meeting"
-    }
+    "title": "Ready to Optimize Your GIS Infrastructure?",
+    "description": "Request a free 30-minute technical diagnostic. I will evaluate your current road operation and show the projected savings from migrating to a dedicated GIS infrastructure.",
+    "cta_main": "Schedule Technical Diagnostic",
+    "cta_email": "Or send an email to soliveira796@gmail.com"
   }
 }

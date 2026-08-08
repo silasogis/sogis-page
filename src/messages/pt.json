@@ -1,266 +1,80 @@
 {
-  "Common": {
-    "nav": {
-      "services": "Serviços",
-      "somap": "SOMAP",
-      "contact": "Contato",
-      "cta": "Fale Comigo"
-    },
-    "footer": {
-      "rights": "Todos os direitos reservados."
-    }
-  },
   "Nav": {
     "home": "Início",
-    "services": "Serviços",
-    "somap": "SOMAP",
-    "apis": "APIs",
-    "about": "Sobre",
+    "challenge": "O Desafio",
+    "somap": "Motor SOMAP",
+    "pillars": "Pilares",
     "contact": "Contato",
-    "cta": "Consultoria GIS"
+    "cta": "Agendar Diagnóstico"
   },
-  "Social": {
-    "linkedin": "https://www.linkedin.com/in/silas-oliveira-41a633186/",
-    "instagram": "https://www.instagram.com/silasogis?igsh=MTV6dHJnZml3d3B4bg==",
-    "youtube": "https://www.youtube.com/@silasetgeo",
-    "button": "Agendar Teste Gratuito"
-  },
-  "Consulting": {
-    "hero": {
-      "title": "Consultoria",
-      "accent": "GIS",
-      "description": "Sou especialista em geoespacial com experiência prática em projetos de todos os portes. Estou pronto para encarar qualquer desafio geoespacial."
-    },
-    "migration": {
-      "title": "Migração para Open Source GIS",
-      "description": "Gerencio cada etapa da sua migração para open source GIS, do planejamento ao suporte contínuo. Meu processo inclui:",
-      "items": [
-        "Avaliação — Avaliação do seu sistema GIS atual e levantamento de necessidades reais de uso por parte da equipe e das partes interessadas.",
-        "Plano de Migração — Com base na avaliação, defino um plano que minimiza interrupções respeitando restrições de prazo e orçamento.",
-        "Implementação — Trabalho lado a lado com a sua equipe para executar o plano de migração.",
-        "Treinamento e Documentação — Capacito a equipe para usar o novo GIS open source e entrego documentação dos principais fluxos de trabalho.",
-        "Suporte Contínuo — Nenhuma migração termina no go-live. Ofereço suporte contínuo para garantir o sucesso a longo prazo."
-      ],
-      "cta": "Começar"
-    },
-    "database": {
-      "title": "Design de Banco de Dados Espacial",
-      "description": "Projetar, construir e gerenciar bancos de dados espaciais com PostgreSQL/PostGIS é uma das minhas principais especialidades. Construo bancos gerenciados, hospedados na nuvem, integrados ao QGIS para criar sistemas multiusuário robustos."
-    },
-    "qgis": {
-      "title": "Desenvolvimento QGIS",
-      "description": "Crio aplicações e plugins personalizados para QGIS que aceleram fluxos de trabalho e automatizam tarefas repetitivas. As soluções podem incluir formulários de entrada de dados customizados, integração profunda com bancos PostGIS, ações para abrir arquivos locais ou vinculados, e recursos enterprise como controle de acesso por papel, segurança em nível de linha e coluna, e regras de validação sob medida para a sua organização."
-    },
-    "products": {
-      "title": "Produtos de Dados Geoespaciais",
-      "description": "Ajudo clientes a usar análises geoespaciais para resolver problemas, aumentar produtividade e melhorar a consciência locacional. Exemplos de produtos:",
-      "items": [
-        "Monitoramento de conformidade de legislação municipal",
-        "Mapas de Ilha de Calor Urbana (UHI)",
-        "Análise de Cobertura Arbórea",
-        "Análise de Vegetação e Áreas Verdes",
-        "Perfis Demográficos",
-        "Análise de Caminhabilidade",
-        "Análise de Mudança de Uso e Cobertura do Solo",
-        "Análise de Detecção de Mudanças",
-        "Mapas de Potencial Solar"
-      ]
-    },
-    "contact_cta": {
-      "title": "Como posso te ajudar?",
-      "description": "Entre em contato hoje mesmo para agendar uma consulta gratuita.",
-      "button_main": "Agendar Consulta Gratuita",
-      "button_back": "Voltar ao Início"
+  "Common": {
+    "footer": {
+      "rights": "Todos os direitos reservados. Projetado e desenvolvido por Silas Oliveira."
     }
   },
   "Hero": {
-    "badge": "Consultor GIS Open Source",
-    "title": "Transformo dados geoespaciais em soluções open source",
-    "description": "Consultoria GIS, desenvolvimento WebGIS e suporte técnico para projetos que precisam de precisão e confiabilidade.",
-    "cta_primary": "Ver Serviços"
-  },
-  "SomapGlimpse": {
-    "title": "Descubra SOMAP",
-    "description": "SOMAP é a sua plataforma preferida para gerenciar e visualizar seus dados geoespaciais. Com ferramentas poderosas e uma interface intuitiva, você pode agilizar seus fluxos de trabalho e tomar decisões informadas.",
-    "cta": "Saiba mais"
+    "badge": "Arquitetura de Soluções GIS & Consultoria",
+    "title": "Soberania Tecnológica e Inteligência Geoespacial de Alta Performance",
+    "description": "Desenho infraestruturas geográficas sob medida para operações complexas. Reduza custos logísticos variáveis a zero por chamada, garanta governança real de frota e tenha controle topológico absoluto da sua rede viária.",
+    "cta_primary": "Agendar Diagnóstico Gratuito"
   },
   "ValueProp": {
-    "title": "Especialista em Open Source GIS",
-    "description": "Domínio técnico completo em tecnologias geoespaciais abertas, da infraestrutura de dados à interface do usuário.",
-    "learn_more": "Saiba mais sobre meus serviços",
+    "title": "Domínio Completo da Esteira Geoespacial",
+    "description": "A união rara entre a compreensão estrutural do espaço geográfico e a engenharia de software robusta. Desenvolvo desde o banco de dados espacial até a interface analítica final, garantindo independência de licenças comerciais caras.",
     "items": {
       "databases": {
-        "title": "Bancos de Dados",
-        "list": ["PostgreSQL & PostGIS", "MySQL, SQLite", "GeoPackage"]
+        "title": "Arquiteturas Escaláveis",
+        "description": "Modelagem de bancos de dados topológicos com PostgreSQL e PostGIS otimizados para alto volume de dados."
       },
-      "desktop": {
-        "title": "Desktop & Servidores GIS",
-        "list": ["QGIS, GDAL, GRASS", "SAGA GIS", "GeoServer, MapServer"]
+      "integration": {
+        "title": "Integração Enterprise",
+        "description": "Acoplamento de motores de roteamento diretamente em sistemas ERP, WMS e roteadores comerciais existentes."
       },
-      "dev": {
-        "title": "Desenvolvimento Web",
-        "list": ["Python (GeoDjango, FastAPI)", "React, Vue.js, Angular", "Leaflet, OpenLayers"]
+      "analytics": {
+        "title": "Análise Espacial Avançada",
+        "description": "Desenvolvimento de algoritmos sob medida no pgRouting que traduzem dados geográficos em decisões de negócios."
       }
     }
   },
-  "Services": {
-    "title": "O que eu ofereço",
-    "description": "Soluções sob medida para otimizar, construir e escalar sua infraestrutura geoespacial.",
-    "items": {
-      "consulting": {
-        "title": "Consultoria GIS",
-        "description": "Ajudo a implementar e otimizar fluxos open source com QGIS, PostGIS, GeoServer e mais. Migrações do ArcGIS/ESRI são minha especialidade.",
-        "link": "Saiba Mais"
-      },
-      "dev": {
-        "title": "Desenvolvimento WebGIS",
-        "description": "Crio aplicações webGIS customizadas e ferramentas data-driven sob medida para o seu negócio usando tecnologias web modernas.",
-        "link": "Saiba Mais"
-      },
-      "geoserver": {
-        "title": "GeoServer Gerenciado",
-        "description": "Servidor GIS como serviço — PostgreSQL + PostGIS + GeoServer rodando na nuvem, com manutenção completa por mim.",
-        "link": "Saiba Mais"
-      },
-      "geomap": {
-        "title": "GeoMap",
-        "description": "Plataforma webGIS enterprise para compartilhar e visualizar dados geoespaciais e mapas interativos de forma intuitiva.",
-        "link": "Saiba Mais"
-      },
-      "hosting": {
-        "title": "Hospedagem GeoServer / PostGIS",
-        "description": "Instâncias dedicadas e seguras de servidores GIS, configuradas meticulosamente e monitoradas ativamente por mim.",
-        "link": "Saiba Mais"
-      },
-      "training": {
-        "title": "Treinamento & Suporte",
-        "description": "Capacitação personalizada para sua equipe em QGIS, PostGIS e fluxos de trabalho GIS open source.",
-        "link": "Saiba mais"
-      },
-      "somap": {
-        "title": "Plataforma SOMAP",
-        "description": "Nossa plataforma WebGIS própria para visualização e análise de alta performance.",
-        "link": "Conhecer SOMAP"
-      },
-      "apis": {
-        "title": "Serviços de API",
-        "description": "APIs robustas e de alta performance de geocodificação e roteamento sob demanda para sistemas corporativos e logísticos.",
-        "link": "Explorar APIs"
-      }
-    }
+  "Challenge": {
+    "title": "A Armadilha das APIs Comerciais de Roteamento",
+    "subtitle": "Por que frotas robustas pagam caro por soluções genéricas?",
+    "description": "APIs proprietárias cobram por cada requisição de rota ou geocodificação. Conforme a operação cresce, a fatura se torna imprevisível e exorbitante. Além disso, essas APIs são incapazes de considerar as regras de negócio específicas da sua frota.",
+    "card_commercial_title": "O Cenário Atual (APIs de Terceiros)",
+    "card_commercial_desc": "Custos variáveis e crescentes, dependência de nuvem de big techs, restrições genéricas de trânsito e faturas que escalam de acordo com o seu sucesso.",
+    "card_local_title": "A Solução (Soberania Tecnológica)",
+    "card_local_desc": "Motor de roteamento local hospedado em ambiente seguro. Custo zero por requisição, latência mínima, total soberania de dados e regras de frota parametrizadas sob medida."
   },
-  "Support": {
-    "title": "Suporte Open Source GIS",
-    "description": "Ofereço pacotes de suporte pré-pago ou dedicado para PostgreSQL, PostGIS, GeoServer, QGIS, pgAdmin e outras ferramentas open source. Resolvo seus problemas técnicos rapidamente com garantia de qualidade.",
-    "cta": "Ver Pacotes de Suporte"
+  "SomapEngine": {
+    "badge": "Motor de Mapeamento",
+    "title": "SOMAP: O Motor da sua Soberania",
+    "description": "O SOMAP não é apenas um produto de prateleira, mas a fundação arquitetural que implanto na sua operação. Ele permite que diretores e gerentes visualizem dados geográficos consolidados em tempo real, gerenciem workspaces dinâmicos e realizem auditorias espaciais complexas sem depender de licenças comerciais externas.",
+    "screenshot_alt": "Painel Analítico do SOMAP"
   },
-  "somap": {
-    "hero": {
-      "badge": "Plataforma WebGIS",
-      "title": "Observação Espacial e Mapeamento de Alta Performance",
-      "description": "Visualize, analise e gerencie seus dados geoespaciais com uma interface intuitiva e poderosa, construída inteiramente no navegador.",
-      "cta_main": "Agendar Demonstração",
-      "cta_secondary": "Ver Funcionalidades"
-    },
-    "features": {
-      "title": "Recursos Principais",
-      "items": {
-        "layers": {
-          "title": "Visualização de Camadas",
-          "description": "Suporte a múltiplos tipos de fonte: XYZ, WMS, WFS e GeoJSON com controle total de opacidade e ordenação."
-        },
-        "workspaces": {
-          "title": "Workspaces Inteligentes",
-          "description": "Organize suas camadas em conjuntos temáticos alternáveis para manter o foco em cada projeto."
-        },
-        "performance": {
-          "title": "Alta Performance",
-          "description": "Processamento e renderização rápida no navegador, conectando-se a backends otimizados."
-        }
-      }
-    },
-    "demos": {
-      "title": "Demonstração de Recursos",
-      "geocoding": {
-        "title": "Geocodificação",
-        "description": "Busca rápida e precisa de endereços baseada em Nominatim e OpenStreetMap, convertendo coordenadas de forma instantânea e dispensando custos de licenças pagas como a do Google Maps."
-      },
-      "routing": {
-        "title": "Roteamento",
-        "description": "Criação de rotas dinâmicas ponto a ponto e cálculo do trajeto mais eficiente diretamente no mapa, utilizando pgRouting, PostGIS e bases OpenStreetMap, totalmente livre de licenças comerciais proprietárias."
-      }
-    },
-    "cta": {
-      "title": "Pronto para ver seus dados em ação?",
-      "description": "Agende uma apresentação personalizada para conhecer como o SOMAP pode transformar sua gestão geoespacial.",
-      "button": "Agendar Teste Gratuito"
-    }
+  "Pillars": {
+    "title": "Três Pilares de Impacto no Caixa",
+    "subtitle": "O foco está no retorno financeiro e na eficiência operacional das suas rotas.",
+    "routing_title": "Previsibilidade e Custo Zero",
+    "routing_desc": "Substituição de tarifas por chamada por uma infraestrutura local robusta com pgRouting. A quantidade de rotas calculadas por segundo deixa de impactar o seu financeiro.",
+    "bi_title": "Governança e Auditoria Financeira",
+    "bi_desc": "Painéis de Business Intelligence espacial que confrontam rotas planejadas com trajetos executados, permitindo auditorias minuciosas de combustível, quilometragem real e tempos de tráfego.",
+    "topology_title": "Controle Topológico Absoluto",
+    "topology_desc": "Parametrização de restrições viárias customizadas que APIs genéricas não oferecem: altura e peso do veículo, zonas de bloqueio urbano por horário e mapas de risco sob medida."
   },
-  "Portals": {
-    "title": "Presença Online",
-    "github": "GitHub",
-    "upwork": "Upwork",
-    "linkedin": "LinkedIn"
+  "CustomEngineering": {
+    "title": "Engenharia Geoespacial Sob Medida",
+    "subtitle": "Aplicações corporativas de alto impacto desenhadas e implantadas de ponta a ponta.",
+    "observation_title": "Plataformas de Observação e Diagnóstico",
+    "observation_desc": "Criação de APIs robustas e aplicações WebGIS que integram motores como o Google Earth Engine para cálculos automatizados, monitoramento ambiental e análise de dados de vegetação.",
+    "logistics_title": "Logística de Gestão Pública",
+    "logistics_desc": "Desenvolvimento e sincronização de bancos de dados para controle de logística governamental complexa, como a gestão e logística de frotas de transporte escolar.",
+    "infrastructure_title": "Otimização de Infraestrutura Corporativa",
+    "infrastructure_desc": "Configuração e gestão de ambientes de servidor e workspaces em larga escala, aplicando tuning no GeoServer, testes de viabilidade de formatos para operações de campo e implementação de plugins de performance para renderização rápida de mapas."
   },
   "Contact": {
-    "title": "Vamos conversar sobre seu projeto GIS",
-    "description": "Consulta gratuita de 30 minutos",
-    "cta_main": "Agendar Consulta Gratuita",
-    "cta_email": "Envie um e-mail"
-  },
-  "apis": {
-    "hero": {
-      "badge": "Infraestrutura GIS",
-      "title": "APIs GIS de Alta Performance para Geocodificação e Roteamento",
-      "description": "Hospedo e gerencio servidores dedicados com Nominatim e mecanismos de roteamento otimizados, oferecendo alternativas robustas e de baixo custo às soluções proprietárias.",
-      "cta_main": "Testar no Console",
-      "cta_secondary": "Conhecer Licenciamentos"
-    },
-    "pillars": {
-      "title": "Modelos de Licenciamento & Serviços",
-      "description": "Disponibilizo estas APIs em diferentes formatos para atender às necessidades técnicas, de privacidade e de custo da sua empresa.",
-      "onprem": {
-        "title": "Licenciamento On-Premise",
-        "description": "Instalação das APIs diretamente no servidor ou infraestrutura local (Docker) da sua empresa. Requisições ilimitadas, latência zero dentro da rede interna e total conformidade com a LGPD."
-      },
-      "saas": {
-        "title": "API como Serviço (SaaS B2B)",
-        "description": "Endpoints em nuvem monitorados por mim, com CDN Cloudflare. Ideal para equipes que precisam de geocodificação e rotas prontas para uso, com cobrança baseada em capacidade de requisições."
-      },
-      "logistics": {
-        "title": "Consultoria de Integração",
-        "description": "Apoio no desenvolvimento e acoplamento das APIs ao seu software de logística, ERP ou WMS, garantindo máxima performance e correto aproveitamento de dados geográficos."
-      },
-      "custom": {
-        "title": "Customização de Rotas e Dados",
-        "description": "Adaptação dos mapas para contemplar redes viárias customizadas, regras de restrição de tráfego específicas para frotas pesadas, ou enriquecimento da geocodificação com bases municipais."
-      }
-    },
-    "console": {
-      "title": "Console do Desenvolvedor (API Sandbox)",
-      "description": "Experimente nossas APIs GIS diretamente no navegador. Altere os parâmetros para ver o código de integração e a resposta JSON correspondente. Observação: Para fins de demonstração, as consultas reais estão limitadas à cobertura dos estados do Paraná (PR), Santa Catarina (SC) e Rio Grande do Sul (RS).",
-      "tab_nominatim": "Geocodificação (Nominatim)",
-      "tab_routing": "Roteamento de Vias",
-      "input_address": "Endereço ou local para geocodificar",
-      "input_address_placeholder": "Ex: Av. Paulista, 1000, São Paulo - SP",
-      "input_coord": "Coordenadas (Lat, Lon)",
-      "input_coord_placeholder": "Ex: -23.561, -46.655",
-      "input_origin": "Origem (Lat, Lon)",
-      "input_dest": "Destino (Lat, Lon)",
-      "input_profile": "Perfil de Roteamento",
-      "profile_car": "Carro / Veículo Leve",
-      "profile_truck": "Caminhão / Veículo Pesado",
-      "profile_bike": "Bicicleta",
-      "profile_foot": "Pedestre",
-      "btn_test": "Executar Chamada",
-      "btn_testing": "Executando...",
-      "code_title": "Código de Integração",
-      "response_title": "Resposta JSON da API"
-    },
-    "cta": {
-      "title": "Pronto para otimizar sua infraestrutura GIS?",
-      "description": "Entre em contato para solicitar chaves de teste, agendar demonstrações de volume ou avaliar o licenciamento On-Premise para sua empresa.",
-      "button": "Agendar Reunião Técnica"
-    }
+    "title": "Pronto para otimizar sua infraestrutura GIS?",
+    "description": "Solicite um diagnóstico técnico gratuito de 30 minutos. Avaliarei o cenário atual da sua operação viária e apresentarei a projeção de economia com a migração para infraestrutura GIS dedicada.",
+    "cta_main": "Agendar Diagnóstico Técnico",
+    "cta_email": "Ou envie um e-mail para soliveira796@gmail.com"
   }
 }

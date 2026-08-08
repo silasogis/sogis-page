@@ -22,11 +22,10 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { href: "/", label: t("home") },
-    { href: "/#sobre", label: t("about") },
-    { href: "/somap", label: t("somap") },
-    { href: "/apis", label: t("apis") },
-    { href: "/consultoria-gis", label: t("services") },
+    { href: "/#inicio", label: t("home") },
+    { href: "/#desafio", label: t("challenge") },
+    { href: "/#somap", label: t("somap") },
+    { href: "/#pilares", label: t("pillars") },
     { href: "/#contato", label: t("contact") },
   ];
 
@@ -41,7 +40,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
+          <Link href="/#inicio" className="flex items-center gap-2 group">
             <div className="w-10 h-10 bg-navy rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform overflow-hidden">
               <Image 
                 src={getAssetPath("/images/somap-icons/somap-mark-paper.svg")} 
@@ -74,7 +73,7 @@ export default function Navbar() {
             <LanguageSwitcher />
 
             <Link
-              href="/consultoria-gis"
+              href="/#contato"
               className="bg-navy text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-navy-mid transition-all shadow-sm hover:shadow-md"
             >
               {t("cta")}
@@ -85,6 +84,7 @@ export default function Navbar() {
           <button
             className="md:hidden text-navy"
             onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle Menu"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -115,7 +115,7 @@ export default function Navbar() {
              <LanguageSwitcher />
           </div>
           <Link
-            href="/consultoria-gis"
+            href="/#contato"
             onClick={() => setIsOpen(false)}
             className="bg-navy text-white px-5 py-4 rounded-2xl text-center font-bold shadow-lg"
           >
