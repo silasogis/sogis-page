@@ -28,16 +28,31 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     <div className="min-h-screen bg-background text-foreground font-body selection:bg-teal/20">
       
       {/* 1. Hero Section */}
-      <section id="inicio" className="relative w-full overflow-hidden bg-white border-b border-border pt-32 pb-24 sm:py-40">
+      <section id="inicio" className="relative w-full overflow-hidden border-b border-border pt-32 pb-24 sm:py-40 bg-white">
+        {/* Background Banner */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src={getAssetPath("/images/banner-4b-branco@2x.png")}
+            alt="SOGIS Banner"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover object-center"
+          />
+        </div>
+
+        {/* Subtle radial diffusion behind central text for optimal readability */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(255,255,255,0.75)_0%,_rgba(255,255,255,0.35)_45%,_transparent_75%)] pointer-events-none z-[1]" />
+
         <div className="mx-auto max-w-5xl px-6 lg:px-8 text-center relative z-10">
           <span className="inline-flex items-center gap-1.5 px-4 py-1.5 mb-6 text-xs font-bold tracking-widest uppercase bg-teal/10 text-teal rounded-full">
             <ShieldCheck className="w-3.5 h-3.5" />
             {t('Hero.badge')}
           </span>
-          <h1 className="text-4xl font-extrabold tracking-tight sm:text-6xl mb-8 text-navy leading-tight">
+          <h1 className="text-4xl font-extrabold tracking-tight sm:text-6xl mb-8 text-navy leading-tight text-buffer">
             {t('Hero.title')}
           </h1>
-          <p className="text-lg tracking-tight leading-8 text-text-muted max-w-3xl mx-auto mb-12">
+          <p className="text-lg tracking-tight leading-8 text-text-muted max-w-3xl mx-auto mb-12 text-buffer-sm">
             {t('Hero.description')}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -55,12 +70,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               {t('Nav.challenge')}
             </Link>
           </div>
-        </div>
-        
-        {/* Dynamic Background decor */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full pointer-events-none opacity-40">
-          <div className="absolute top-1/4 left-10 w-72 h-72 bg-radial-gradient from-teal/10 to-transparent blur-3xl rounded-full" />
-          <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-radial-gradient from-navy/5 to-transparent blur-3xl rounded-full" />
         </div>
       </section>
 
