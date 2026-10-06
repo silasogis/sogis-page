@@ -11,7 +11,7 @@ export default function Footer() {
   const socialLinks = [
     { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/silas-oliveira-41a633186/", label: "LinkedIn" },
     { icon: <Instagram size={20} />, href: "https://www.instagram.com/silasogis?igsh=MTV6dHJnZml3d3B4bg==", label: "Instagram" },
-    { icon: <Youtube size={20} />, href: "https://www.youtube.com/@silasetgeo", label: "YouTube" },
+    { icon: <Youtube size={20} />, href: "https://www.youtube.com/@silasogis", label: "YouTube" },
   ];
 
   return (
@@ -22,10 +22,10 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Link href="/#inicio" className="flex items-center gap-2 mb-6 group">
               <div className="w-8 h-8 bg-navy rounded-lg flex items-center justify-center overflow-hidden">
-                <Image 
-                  src={getAssetPath("/images/somap-icons/somap-mark-paper.svg")} 
-                  alt="SOGIS Logo" 
-                  width={20} 
+                <Image
+                  src={getAssetPath("/images/somap-icons/somap-mark-paper.svg")}
+                  alt="SOGIS Logo"
+                  width={20}
                   height={20}
                   className="w-5 h-5 object-contain"
                 />
@@ -106,8 +106,8 @@ export default function Footer() {
             &copy; {currentYear} Silas Oliveira Geospatial. {t("Common.footer.rights")}
           </p>
           <div className="flex gap-8">
-             <Link href="#" className="text-text-muted text-xs hover:text-navy">Privacidade</Link>
-             <Link href="#" className="text-text-muted text-xs hover:text-navy">Termos</Link>
+            <Link href="#" className="text-text-muted text-xs hover:text-navy">Privacidade</Link>
+            <Link href="#" className="text-text-muted text-xs hover:text-navy">Termos</Link>
           </div>
         </div>
       </div>
